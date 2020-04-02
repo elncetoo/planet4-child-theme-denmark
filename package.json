@@ -1,0 +1,48 @@
+{
+  "name": "planet4-child-theme-denmark",
+  "version": "1.0.0",
+  "description": "Child theme for the Planet 4 Denmark Wordpress project. ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start --config webpack.config.js",
+    "build": "wp-scripts build --config webpack.config.js --mode production",
+    "lint:css": "wp-scripts lint-style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/elncetoo/planet4-child-theme-denmark.git"
+  },
+  "author": "Svilena Koleva, Greenpeace Nordic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elncetoo/planet4-child-theme-denmark/issues"
+  },
+  "homepage": "https://github.com/elncetoo/planet4-child-theme-denmark#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "5.0.0",
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "remove-files-webpack-plugin": "^1.1.3",
+    "sass-loader": "^8.0.0",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "svg-sprite-loader": "^4.1.6",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^4.40.2",
+    "webpack-fix-style-only-entries": "^0.4.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 0.2%",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
